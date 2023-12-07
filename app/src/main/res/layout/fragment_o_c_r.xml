@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/ocrSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.application.OverlayOCR
+        android:id="@+id/overlayOCR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <include
+        layout="@layout/bottom_sheet_ocr"
+        android:id="@+id/bottom_sheet"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

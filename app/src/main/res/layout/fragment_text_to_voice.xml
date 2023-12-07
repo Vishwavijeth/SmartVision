@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:padding="20dp"
+    android:background="@drawable/main_page_bg"
+    tools:context=".fragments.TextToVoiceFragment">
+
+    <EditText
+        android:id="@+id/textTTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/white"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_black"
+        android:hint="@string/enter_the_text_here" />
+
+    <Button
+        android:id="@+id/btnTTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_to_continue"
+        android:layout_below="@+id/textTTV"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@color/mainPageBG" />
+
+    <!-- Image to be displayed on top -->
+    <item
+        android:id="@+id/image_item"
+        android:drawable="@drawable/mainpage_background" />
+</layer-list>

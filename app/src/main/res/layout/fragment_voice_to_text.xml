@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page_bg"
+    tools:context=".fragments.VoiceToTextFragment">
+
+    <Button
+        android:id="@+id/btnTTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_to_speak"
+        android:layout_margin="75dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/textVVt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_will_appear_here"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnTTS"/>
+
+</RelativeLayout>

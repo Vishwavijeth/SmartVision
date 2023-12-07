@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        app:cardCornerRadius="25dp"
+        android:layout_margin="8dp"
+        android:background="#FFFFFF"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Pose Estimation"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:paddingLeft="19dp"
+                android:paddingTop="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pose"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
