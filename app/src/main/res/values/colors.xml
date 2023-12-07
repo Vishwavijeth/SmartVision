@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="background">#000025</color>
+
+    <color name="bounding_box_color">#2275bb</color>
+    <color name="toolbar_background">#EEEEEE</color>
+
+    <color name="bottom_sheet_background">#F5F5F5</color>
+    <color name="bottom_sheet_text_color">@android:color/black</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="light_black">#403e39</color>
+
+    <color name="card1">#3a423c</color>
+    <color name="card2">#aa336a</color>
+    <color name="card3">#a55353</color>
+    <color name="card4">#bcb88a</color>
+    <color name="card5">#b5a6e7</color>
+    <color name="card6">#ee9a00</color>
+
+    <color name="mainPageBG">#F5F5F5</color>
+</resources>

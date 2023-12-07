@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Smart Vision</string>
+
+    <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Decreasing maxium detected results
+        button</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Increasing maxium detected results
+        button</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Decreasing threshold of detected object
+        results button</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Increasing threshold of detected object
+        results button</string>
+    <string name="alt_bottom_sheet_thread_button_minus">Decrease the number of threads used</string>
+    <string name="alt_bottom_sheet_thread_button_plus">Increase the number of threads used</string>
+
+    <string name="label_interence_time">Inference Time</string>
+    <string name="label_fps">Frames per Second</string>
+    <string name="label_confidence_threshold">Threshold</string>
+    <string name="label_max_results">Max Results</string>
+    <string name="label_threads">Number of Threads</string>
+    <string name="label_delegate">Delegate</string>
+    <string name="label_models">ML Model</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="models_spinner_titles">
+        <item>MobileNet V1</item>
+        <item>EfficientDet Lite0</item>
+        <item>EfficientDet Lite1</item>
+        <item>EfficientDet Lite2</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tv_default_inference_time">0ms</string>
+    <string name="tv_default_threads_value">2</string>
+
+
+    <string name="tfe_pe_app_name">TFL Pose Estimation</string>
+    <string name="tfe_pe_request_permission">This app needs camera permission.</string>
+    <string name="tfe_pe_tv_score">Score: %.2f</string>
+    <string name="tfe_pe_tv_model">Model: </string>
+    <string name="tfe_pe_tv_fps">Fps: %d</string>
+    <string name="tfe_pe_tv_device">Device: </string>
+    <string name="tfe_pe_tv_classification_value">- %s</string>
+    <string name="tfe_pe_tv_pose_classification">Pose Classification</string>
+    <string name="tfe_pe_tv_tracking">Tracker: </string>
+    <string name="tfe_pe_gpu_error">Movenet MultiPose does not support GPU. Fallback to CPU.</string>
+
+
+    <string-array name="tfe_pe_models_array">
+        <item>Movenet Lightning</item>
+        <item>Movenet Thunder</item>
+        <item>Movenet MultiPose</item>
+        <item>Posenet</item>
+    </string-array>
+
+    <string-array name="tfe_pe_device_name">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="tfe_pe_tracker_array">
+        <item>Off</item>
+        <item>BoundingBox</item>
+        <item>Keypoint</item>
+    </string-array>
+
+
+    <string name="tfe_ocr_app_name" translatable="false">TFL OCR</string>
+    <string name="tfe_ocr_gpu" translatable="false">GPU</string>
+    <string name="tfe_ocr_run_model" translatable="false">Run model</string>
+    <string name="tfe_ocr_texts_found" translatable="false">Text(s) Found</string>
+    <string name="tfe_ocr_no_text_found" translatable="false">No Text Found</string>
+    <string name="tfe_using_first_image" translatable="false">You are using the first image</string>
+    <string name="tfe_using_second_image" translatable="false">You are using the second image</string>
+    <string name="tfe_using_third_image" translatable="false">You are using the third image</string>
+    <string name="tfe_tf_image_description" translatable="false">TensorFlow image</string>
+    <string name="tfe_android_image_description" translatable="false">Android image</string>
+    <string name="tfe_chrome_image_description" translatable="false">Chrome image</string>
+    <string name="tfe_result_image_description" translatable="false">Result image</string>
+    <string name="home">Home</string>
+    <string name="select_any_of_the_following_to_get_started">Select any of the following to get started</string>
+    <string name="object_detection">Object Detection</string>
+    <string name="pose_estimation">Pose Estimation</string>
+    <string name="image_segmentation">Image Segmentation</string>
+    <string name="o_c_r">O C R</string>
+    <string name="smart_vision">Smart Vision</string>
+    <string name="prediction_settings">Prediction settings</string>
+    <string name="large_language_model">Large Language Model</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="text_will_appear_here">Text will appear here</string>
+    <string name="enter_the_text_here">Enter the text here</string>
+    <string name="tap_to_continue">Tap to continue</string>
+
+
+</resources>

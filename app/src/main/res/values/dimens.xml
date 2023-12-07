@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="stroke_small">4dp</dimen>
+    <dimen name="round_button_medium">64dp</dimen>
+
+    <!-- Bottom Sheet -->
+    <dimen name="bottom_sheet_text_size">17sp</dimen>
+    <dimen name="bottom_sheet_padding">16dp</dimen>
+    <dimen name="bottom_sheet_peek_height">50dp</dimen>
+    <dimen name="bottom_sheet_default_row_margin">10dp</dimen>
+    <dimen name="bottom_sheet_control_btn_size">35dp</dimen>
+    <dimen name="bottom_sheet_control_text_side_margin">10dp</dimen>
+    <dimen name="bottom_sheet_spinner_delegate_min_width">150dp</dimen>
+    <dimen name="bottom_sheet_spinner_model_min_width">150dp</dimen>
+
+    <integer name="bottom_sheet_control_text_min_ems">3</integer>
+
+    <dimen name="item_color_labels_radius">10dp</dimen>
+    <dimen name="item_color_labels_margin">5dp</dimen>
+    <dimen name="item_color_labels_padding">5dp</dimen>
+
+    <dimen name="tfe_is_preview_size">250dp</dimen>
+    <dimen name="tfe_bottom_sheet_corner_radius">15dp</dimen>
+    <dimen name="tfe_bottom_sheet_top_padding">8dp</dimen>
+
+    <dimen name="mainPageCardHeight">60dp</dimen>
+
+</resources>
